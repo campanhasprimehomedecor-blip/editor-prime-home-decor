@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editor de Imagens Prime Home Decor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                "400": "#b89154",
+                "500": "#9f7636",
+                "600": "#86612d",
+                "700": "#6d4e24",
+                "800": "#543c1b"
+              },
+              neutral: {
+                "200": "#ededed",
+                "300": "#e4ddd7",
+                "400": "#a8a29e",
+                "500": "#78716c",
+                "700": "#44403c",
+                "800": "#292524",
+                "900": "#1c1917",
+                "950": "#000000"
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^18.2.0/",
+    "react": "https://aistudiocdn.com/react@^18.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^18.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral-950 text-neutral-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

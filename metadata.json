@@ -1,0 +1,5 @@
+{
+  "name": "Editor de Imagens Prime Home Decor",
+  "description": "Uma aplicação que permite aos usuários editar imagens usando comandos de texto com o poder do modelo Gemini 2.5 Flash Image. Carregue uma imagem, descreva as mudanças desejadas e deixe a IA gerar uma nova versão.",
+  "requestFramePermissions": []
+}
